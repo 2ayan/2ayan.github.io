@@ -13,14 +13,14 @@ div.left
 {
     width:15%;
     height:100%;
-    background-color:red;
+    background-color:white;
     display: table-cell;
 }
 div.center
 {
     width:70%;
     height:100%;
-    background-color:red;
+    background-color:white;
     display: table-cell;
 }
 
