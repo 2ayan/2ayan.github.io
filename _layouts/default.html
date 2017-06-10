@@ -6,6 +6,7 @@
   <title>Fountain Pen Review</title>
   </head>
 <body>
+
   <div class="body">
     <div class="bodyrow">
     <div class="right">
@@ -24,9 +25,11 @@
     
     </div>
 <!-- Main body -->
-    <?php
-    include("body.html");
-    ?>
+<div w3-include-html="body.html"></div>
+
+<script>
+w3.includeHTML();
+</script>
 <!-- -->    
     <div class="right">
     </div>
